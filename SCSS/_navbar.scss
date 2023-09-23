@@ -1,0 +1,28 @@
+.navbar {
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+
+
+  &-logo {
+    color: var(--secondary-color);
+
+    span {
+      color: var(--primary-color);
+    }
+  }
+
+  &-links {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin: 0 30px;
+    }
+  }
+}
